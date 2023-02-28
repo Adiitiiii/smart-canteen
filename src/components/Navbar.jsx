@@ -46,7 +46,7 @@ export default function Nav({ title, navBtn, hasCheckout }) {
           <ModalHeader>Failed to Sign In</ModalHeader>
           <ModalCloseButton />
           <ModalBody>
-            Please use the acccount associated with VES Email Address!
+            Please use the acccount associated with SIES Email Address!
           </ModalBody>
 
           <ModalFooter>

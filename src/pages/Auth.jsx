@@ -54,7 +54,7 @@ export default function Auth() {
           <ModalHeader>Failed to Sign In</ModalHeader>
           <ModalCloseButton />
           <ModalBody>
-            Please use the acccount associated with VES Email Address!
+            Please use the acccount associated with SIES Email Address!
           </ModalBody>
 
           <ModalFooter>
@@ -72,11 +72,11 @@ export default function Auth() {
               Use your{' '}
               <Text as="span" color="blue.600">
                 <a
-                  href="https://vesit.ves.ac.in"
+                  href="https://siesgst.ac.in"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  VESIT
+                  SIES
                 </a>{' '}
               </Text>
               google account to login here!

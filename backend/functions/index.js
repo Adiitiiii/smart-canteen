@@ -1,6 +1,6 @@
 const functions = require('firebase-functions');
 const admin = require('firebase-admin');
-const serviceAccount = require('./smart-canteen-475bf-firebase-adminsdk-xw1s2-e1b58fd442.json');
+const serviceAccount = require('./aditi-canteen-firebase-adminsdk-9y0ai-14293914d6.json');
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
@@ -11,7 +11,7 @@ const db = admin.firestore();
 exports.validateVesEmail = functions.auth
   .user()
   .beforeCreate((user, context) => {
-    if (!user.email || !user.email.includes('@ves.ac.in')) {
+    if (!user.email || !user.email.includes('@siesgst.ac.in')) {
       throw new functions.auth.HttpsError(
         'invalid-argument',
         `Unauthorized email "${user.email}"`

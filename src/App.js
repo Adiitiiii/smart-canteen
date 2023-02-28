@@ -19,7 +19,7 @@ function App() {
           <Route path="/auth" element={<Auth />} />
           {/* <Route path="/menu" element={<Auth />} /> */}
           {/* <Route path="/menu/:id" element={<Auth />} /> -> useParam() Hook to get the param*/}
-          <Route
+          {/* <Route
             path="/menu"
             element={
               <Protected>
@@ -43,7 +43,7 @@ function App() {
                 <Admin />{' '}
               </Protected>
             }
-          />
+          /> */}
           <Route path="*" element={<NotFound />} />
         </Routes>
       </AuthContextProvider>
